@@ -12,31 +12,31 @@
 }`;
 
 
-      export async function load({ fetch }) {
-        const response = await fetch(import.meta.env.VITE_PUBLIC_IHUB_URL, {
-        // const response = await fetch("https://itineraryhub.com/graphql", {
-        method: 'POST',
-        headers: {
-          'Content-Type': 'application/json',
-        },
-        body: JSON.stringify({ query }),
-      });
-          if (response.ok) {
-        const responseObj = await response.json();
-        // console.log (responseObj);
-        const posts = responseObj.data.mediaItems.edges;
-        console.log (posts)
-              return {
-                  props: {
-                      posts
-                  }
-              };
-          }
-          return {
-              status: response.status,
-              error: new Error(`Could not load the URL`)
-          };
-      }
+      // export async function load({ fetch }) {
+      //   const response = await fetch(import.meta.env.VITE_PUBLIC_IHUB_URL, {
+      //   // const response = await fetch("https://itineraryhub.com/graphql", {
+      //   method: 'POST',
+      //   headers: {
+      //     'Content-Type': 'application/json',
+      //   },
+      //   body: JSON.stringify({ query }),
+      // });
+      //     if (response.ok) {
+      //   const responseObj = await response.json();
+      //   // console.log (responseObj);
+      //   const posts = responseObj.data.mediaItems.edges;
+      //   console.log (posts)
+      //         return {
+      //             props: {
+      //                 posts
+      //             }
+      //         };
+      //     }
+      //     return {
+      //         status: response.status,
+      //         error: new Error(`Could not load the URL`)
+      //     };
+      // }
   </script>
   
   
