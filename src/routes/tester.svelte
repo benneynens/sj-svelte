@@ -13,8 +13,8 @@
 
 
       export async function load({ fetch }) {
-        // const response = await fetch(import.meta.env.VITE_PUBLIC_IHUB_URL, {
-        const response = await fetch("https://itineraryhub.com/graphql", {
+        const response = await fetch(import.meta.env.VITE_PUBLIC_IHUB_URL, {
+        // const response = await fetch("https://itineraryhub.com/graphql", {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
