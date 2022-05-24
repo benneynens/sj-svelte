@@ -22,6 +22,7 @@
 
         
         <NavLink link="/testimonials/">Testimonials</NavLink>
+        <NavLink link="/tester/">Tester</NavLink>
 
         <NavLink link="/contact/">Contact</NavLink>
 
