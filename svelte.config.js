@@ -1,6 +1,6 @@
 // import adapter from '@sveltejs/adapter-auto';
-import adapter from '@sveltejs/adapter-static'; //cloudflare
-// import adapter from '@sveltejs/adapter-netlify'; //netlify
+// import adapter from '@sveltejs/adapter-static'; //cloudflare
+import adapter from '@sveltejs/adapter-netlify'; //netlify
 import preprocess from 'svelte-preprocess';
 
 /** @type {import('@sveltejs/kit').Config} */
