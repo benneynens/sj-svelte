@@ -16,7 +16,7 @@
 		<div class="p-6">
 			<h5 class="text-xl font-medium mb-2">
 				{#if targetURL}
-					<a href="/"> {title} </a>
+					<a href={targetURL}> {title} </a>
 				{:else}
 					{title}
 				{/if}
