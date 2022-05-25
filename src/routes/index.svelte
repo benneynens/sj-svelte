@@ -57,14 +57,14 @@
 	<div class="grid md:grid-cols-3 gap-4 mt-5">
 		<Card
 			title="Active Small Groups"
-			targetURL="/private/"
+			targetURL="/active-groups/"
 			text="lorem about 3 lines text about hiking tours about 3 lines text about hiking tours about 3 lines text about hiking tours "
 			imageURL={backgroundImageURL}
 		/>
-		<Card title="School Trips" targetURL="/schools/" text="lorem about 3 lines text about school groups about 3 lines text about school groups about 3 lines text about school groups about 3 lines text about school groups" />
+		<Card title="School Trips" targetURL="/education/" text="lorem about 3 lines text about school groups about 3 lines text about school groups about 3 lines text about school groups about 3 lines text about school groups" />
 		<Card
 			title="Private Tours"
-			targetURL="/private"
+			targetURL="/private/"
 			text="Lorem ipsum dolor sit, amet consectetur adipisicing elit. Atque odit alias nostrum veritatis fuga voluptate dicta, rerum laboriosam sequi itaque omnis vitae porro aut molestiae dolorem! Eligendi asperiores corporis quis."
 		/>
 	</div>
