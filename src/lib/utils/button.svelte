@@ -19,7 +19,9 @@ import { goto } from "$app/navigation";
 
 
 <button 
-class="font-bold
+class="
+my-5
+font-bold
 cursor-pointer
 py-2 px-4 
 border
