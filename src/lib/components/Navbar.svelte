@@ -15,14 +15,12 @@
         <NavLink link="/about/">About</NavLink>
         
         <NavLinkWithDropdown name="Experiences">
-            <NavDropdownLink link="/">Active Travellers</NavDropdownLink>
-            <NavDropdownLink link="/">School & Education Groups</NavDropdownLink>
-            <NavDropdownLink link="/">Luxury Private Tours</NavDropdownLink>
+            <NavDropdownLink link="/active-groups/">Active Travellers</NavDropdownLink>
+            <NavDropdownLink link="/education/">School & Education Groups</NavDropdownLink>
+            <NavDropdownLink link="/private/">Luxury Private Tours</NavDropdownLink>
         </NavLinkWithDropdown>
 
-        
         <NavLink link="/testimonials/">Testimonials</NavLink>
-        <NavLink link="/tester/">Tester</NavLink>
 
         <NavLink link="/contact/">Contact</NavLink>
 
